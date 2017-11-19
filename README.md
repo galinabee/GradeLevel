@@ -1,4 +1,4 @@
-canini.Grader <a name="grader"></a>
+Toscanini.Grader <a name="grader"></a>
 Uses Toscanini, Grader assesses the difficulty of an entire score or instrument part within a score.
 
 ```javascript
@@ -7,9 +7,9 @@ const grader = Grader(musicXML); // Create a Grader instance from a musicxml str
 grader.assessDynamics();
 // outputs a decimal number based on the grading rubrics below...
 ```
-![](https://raw.githubusercontent.com/MegaArman/Toscanini/master/reference_media/grade_level1.png)
+![](https://raw.githubusercontent.com/galinabee/GradeLevel/master/reference_media/grade_level1.png)
 
-![](https://raw.githubusercontent.com/MegaArman/Toscanini/master/reference_media/grade_level2.png)
+![](https://raw.githubusercontent.com/galinabee/GradeLevel/master/reference_media/grade_level1.png)
 
 ### assessDynamics(instrumentName)
 provides an assessment, grading from 1-6, of dynamics in a score, with instrument specification
