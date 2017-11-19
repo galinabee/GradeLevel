@@ -1,0 +1,28 @@
+{
+  "name": "gradeLevel",
+  "author": "Galina Belolipetski",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "A module to grade music scores",
+  "main": "./lib/Grader.js",
+  "files": [
+      "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "lint": "./node_modules/eslint --cache ./lib/*.js tests/*.js",
+    "test": "npm run lint && nyc tape tests/*.js | tap-nyc"
+  },
+  "dependencies": {
+    "elementtree": "^0.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "nyc": "^11.0.2",
+    "tap-nyc": "^1.0.1",
+    "tape": "^4.6.3"
+  }
+}

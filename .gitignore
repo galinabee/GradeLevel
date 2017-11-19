@@ -1,0 +1,5 @@
+node-modules/
+npm-debug.log
+*.swp
+.nyc_output
+.eslintcache
